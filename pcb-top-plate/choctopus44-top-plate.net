@@ -1,0 +1,37 @@
+(export (version D)
+  (design
+    (source D:\Tiedostot\git-hommia\reviung\choctopus44\choctoups-top-plate\ver1.3\choctopus44-top-plate.sch)
+    (date "5.7.2021 18.21.16")
+    (tool "Eeschema (5.1.9)-1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "Choctopus44 switch plate")
+        (company)
+        (rev "1.0 Prototype")
+        (date 2021-07-04)
+        (source choctopus44-top-plate.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref H1)
+      (value MountingHole)
+      (footprint MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 60E40D89)))
+  (libparts
+    (libpart (lib Mechanical) (part MountingHole)
+      (description "Mounting Hole without connection")
+      (docs ~)
+      (footprints
+        (fp MountingHole*))
+      (fields
+        (field (name Reference) H)
+        (field (name Value) MountingHole))))
+  (libraries
+    (library (logical Mechanical)
+      (uri D:\Ohjelmat\KiCad\share\kicad\library/Mechanical.lib)))
+  (nets))
