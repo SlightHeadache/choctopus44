@@ -2,6 +2,8 @@
 
 The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
 
+![choctopus44](./images/choctopus44_grid.png)
+
 ## Parts list
 
 | Part                                          | Count | Optional |
