@@ -43,7 +43,7 @@ The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
 
 ## Known issues
  * Slide switch requires hand wiring (see notes)
- * Potentially flaky Bluetoot behaviour?
+ * Potentially flaky Bluetooth behaviour?
    * Could be a Samsung A51 specific issue
    * Could be caused by malfunctioning Nice!Nano, the unit has had a hard life
 
