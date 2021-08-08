@@ -19,7 +19,7 @@ The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
 | M2 screw 10mm                                 | 3     |          |
 | Rubber feet                                   | 6-12  |          |
 | Diode [1N4148 SMD or THD]                     | 45    |          |
-| Kailh Choc socket for switch                  | 44    | x        |
+| Kailh Choc sockets                            | 44    | x        |
 | Tactile switch Omron B3F or compatible        | 1     |          |
 | Slide switch C&K JS202011CQN or compatible    | 1     | x        |
 | EC11 encoder                                  | 1     |          |
