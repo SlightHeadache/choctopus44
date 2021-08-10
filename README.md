@@ -34,7 +34,7 @@ The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
 
  * Single pin sockets and the slide switch are only have an use case if you plan on using a Nice!Nano or equivalent, since their use case is only battery related.
  * The length of the required stand-offs is highly dependant on the used battery (assuming one is used at all), MCU socket, and other such parts. With the listed screws and stand offs, a 5mm thick battery can fit between the MCU and the MCU cover without much issue as long as the the MCU socket is slim enough.
- * Using the listed slide switch requires scratching two traces and some hand wiring thanks to a mistake I made while reading datasheets. Reference pictures TBA.
+ * Using the listed slide switch requires cutting two traces and some hand wiring thanks to a mistake I made while reading datasheets. Reference pictures TBA.
 
 ## Firmwares
 
