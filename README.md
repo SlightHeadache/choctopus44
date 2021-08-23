@@ -42,9 +42,18 @@ The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
  * ZMK (semantically incorrect WIP): https://github.com/SlightHeadache/zmk
 
 ## Known issues
- * Slide switch requires hand wiring (see notes)
- * Potentially flaky Bluetooth behaviour?
-   * Could be a Samsung A51 specific issue
-   * Could be caused by malfunctioning Nice!Nano, the unit has had a hard life
+
+  ### Main issues
+  * Slide switch requires hand wiring (see notes)
+  * Switch plate might not accommodate SMD encoders optimally, requires clipping the side legs of the encoder (untested)
+  * MCU alignment is in a poor angle
+
+  ### Lesser issues
+  * Potentially flaky Bluetooth behaviour?
+    * Could be a Samsung A51 specific issue? Seems to be less frequent now.
+      * Could be caused by malfunctioning Nice!Nano, the unit has had a hard life
+    * Can't connect to at least my Samsung Smart TV (UE55RU8005UXXC)
+      * Probably caused by janky Smart TV OS
+    * Very old USB devices might not be able to recognize Nice!Nano, at least my 10+ year old Toshiba has issues
 
 [Build guide TBA]
