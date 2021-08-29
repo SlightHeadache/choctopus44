@@ -32,9 +32,9 @@ The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
 
 ### Notes
 
- * Single pin sockets and the slide switch are only have an use case if you plan on using a Nice!Nano or equivalent, since their use case is only battery related.
- * The length of the required stand-offs is highly dependant on the used battery (assuming one is used at all), MCU socket, and other such parts. With the listed screws and stand offs, a 5mm thick battery can fit between the MCU and the MCU cover without much issue as long as the the MCU socket is slim enough.
- * Using the listed slide switch requires cutting two traces and some hand wiring thanks to a mistake I made while reading datasheets. Reference pictures TBA.
+ * Single pin sockets and the slide switch only have an use case if you plan on using a Nice!Nano or equivalent as they are used for managing battery connection.
+ * The length of the required stand-offs is highly dependant on the used battery and its orientation (assuming one is used at all), and the used MCU socket. With the listed screws and stand offs, a 5mm thick battery can fit between the MCU and the MCU cover without much issue as long as the the MCU socket is slim enough.
+ * Using the listed slide switch requires cutting two traces and some hand wiring thanks to a mistake I made while reading datasheets. See [Slide Switch Handwiring Guide](documents/slide_switch_handwiring_guide.md) for documentation.
 
 ## Firmwares
 
@@ -44,11 +44,15 @@ The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
 ## Known issues
 
   ### Main issues
-  * Slide switch requires hand wiring (see notes)
-  * Switch plate might not accommodate SMD encoders optimally, requires clipping the side legs of the encoder (untested)
-  * MCU alignment is in a poor angle
+
+  * Slide switch requires hand wiring. See [Slide Switch Handwiring Guide](documents/slide_switch_handwiring_guide.md) for documentation.
+  * Switch plate does not accommodate SMD encoders properly. The side legs interfere with the encoder cut our, and it is required to clip or bend them (untested).
+  * MCU alignment is in a poor angle, see [USB Connector Collision Diagram](images/choctopus44_usb_plug_collision.png).
 
   ### Lesser issues
+
+  * Choc hotswap is a little dodgy compared to MX hot swap
+  * Some case screws are very easy to over tighten thanks to the structure of the case. This might be rectifiable with different kind of plate cut outs or leaving clearance for spacers or washers.
   * Potentially flaky Bluetooth behaviour?
     * Could be a Samsung A51 specific issue? Seems to be less frequent now.
       * Could be caused by malfunctioning Nice!Nano, the unit has had a hard life
@@ -56,4 +60,6 @@ The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
       * Probably caused by janky Smart TV OS
     * Very old USB devices might not be able to recognize Nice!Nano, at least my 10+ year old Toshiba has issues
 
-[Build guide TBA]
+## Build guide
+
+See [build guide](documents/buildguide.md).
