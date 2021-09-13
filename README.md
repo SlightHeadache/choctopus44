@@ -1,8 +1,29 @@
+# PLEASE READ THE "KNOWN ISSUES" CHAPTER FOR IFORMATION ABOUT THE CURRENT REVISION!
+
 # CHOCTOPUS44
 
 The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
 
 ![choctopus44](./images/choctopus44_grid.png)
+
+## Known issues
+
+  ### Main issues
+
+  * MCU alignment is in a poor angle, see [USB Connector Collision Diagram](images/choctopus44_usb_plug_collision.png).
+  * Slide switch requires hand wiring. See [Slide Switch Handwiring Guide](documents/slide_switch_handwiring_guide.md) for documentation.
+  * Switch plate does not accommodate SMD encoders properly. The side legs interfere with the encoder cut our, and it is required to clip or bend them (untested).
+
+  ### Lesser issues
+
+  * Choc hotswap is a little dodgy compared to MX hot swap; due to how Choc switches clip into the plate, they are not held as securely as one might hope.
+  * Some case screws are very easy to over tighten thanks to the structure of the case. This might be rectifiable with different kind of plate cut outs or leaving clearance for spacers or washers.
+  * Potentially flaky Bluetooth behaviour?
+    * Could be a Samsung A51 specific issue? Seems to be less frequent now.
+      * Could be caused by malfunctioning Nice!Nano, the unit has had a hard life
+    * Can't connect to at least my Samsung Smart TV (UE55RU8005UXXC)
+      * Probably caused by janky Smart TV OS
+    * Very old USB devices might not be able to recognize Nice!Nano, at least my 10+ year old Toshiba has issues
 
 ## Parts list
 
@@ -40,25 +61,6 @@ The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
 
  * QMK: https://github.com/SlightHeadache/qmk_firmware
  * ZMK (semantically incorrect WIP): https://github.com/SlightHeadache/zmk
-
-## Known issues
-
-  ### Main issues
-
-  * Slide switch requires hand wiring. See [Slide Switch Handwiring Guide](documents/slide_switch_handwiring_guide.md) for documentation.
-  * Switch plate does not accommodate SMD encoders properly. The side legs interfere with the encoder cut our, and it is required to clip or bend them (untested).
-  * MCU alignment is in a poor angle, see [USB Connector Collision Diagram](images/choctopus44_usb_plug_collision.png).
-
-  ### Lesser issues
-
-  * Choc hotswap is a little dodgy compared to MX hot swap
-  * Some case screws are very easy to over tighten thanks to the structure of the case. This might be rectifiable with different kind of plate cut outs or leaving clearance for spacers or washers.
-  * Potentially flaky Bluetooth behaviour?
-    * Could be a Samsung A51 specific issue? Seems to be less frequent now.
-      * Could be caused by malfunctioning Nice!Nano, the unit has had a hard life
-    * Can't connect to at least my Samsung Smart TV (UE55RU8005UXXC)
-      * Probably caused by janky Smart TV OS
-    * Very old USB devices might not be able to recognize Nice!Nano, at least my 10+ year old Toshiba has issues
 
 ## Build guide
 
