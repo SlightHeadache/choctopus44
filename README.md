@@ -33,11 +33,7 @@ The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
 | Top plate [PCB]                               | 1     | x        |
 | Bottom plate [PCB]                            | 1     |          |
 | M2 stand off 5mm                              | 6     |          |
-| M2 stand off 11mm                             | 2     |          |
-| M2 stand off 12mm                             | 1     |          |
 | M2 screw 3mm                                  | 12    |          |
-| M2 screw 8mm                                  | 3     |          |
-| M2 screw 10mm                                 | 3     |          |
 | Rubber feet                                   | 6-12  |          |
 | Diode [1N4148 SMD or THD]                     | 45    |          |
 | Kailh Choc sockets                            | 44    | x        |
@@ -45,12 +41,16 @@ The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
 | Slide switch C&K JS202011CQN or compatible    | 1     | x        |
 | EC11 encoder                                  | 1     |          |
 | ProMicro/Nice!Nano or compatible              | 1     |          |
-| MCU socket (or header rows)                   | 1 (2) |          |
+| MCU socket (or header rows)                   | 1 (2) | x        |
 | Extra single pin header sockets               | 2     | x        |
 | Kailh Choc key switch                         | 44    |          |
 | Choc spacing compatible keycaps (e.g. MBK)    | 44    |          |
 | Cable for MCU                                 | 1     |          |
 
+| M2 stand off 11mm                             | 2     |          |
+| M2 stand off 12mm                             | 1     |          |
+| M2 screw 8mm                                  | 3     |          |
+| M2 screw 10mm                                 | 3     |          |
 ### Notes
 
  * Single pin sockets and the slide switch only have an use case if you plan on using a Nice!Nano or equivalent as they are used for managing battery connection.
@@ -60,6 +60,10 @@ The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
 ## Firmwares
 
  * QMK: https://github.com/SlightHeadache/qmk_firmware
+   * Navigate to your QMK folder and run the following `bash` command to fetch and switch to the WIP branch. If you are using git via PowerShell or CMD, remember to switch the `&&`s to semicolons. Remember to switch to your preferred local branch if you wish to meddle with other keyboards.
+     ```sh
+     git remote add choctopus_project git@github.com:SlightHeadache/qmk_firmware.git && git fetch choctopus_project && git checkout --track -b choctopus_project choctopus_project/master
+     ```
  * ZMK (semantically incorrect WIP): https://github.com/SlightHeadache/zmk
 
 ## Build guide
