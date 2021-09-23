@@ -2,7 +2,7 @@
 
 # CHOCTOPUS44
 
-The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
+The CHOCTOPUS44 is low profile, Choc spaced, optionally hotswappaple 44-key column staggered keyboard with a rotary encoder.
 
 ![choctopus44](./images/choctopus44_grid.png)
 
@@ -27,14 +27,11 @@ The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
 
 ## Parts list
 
+### Main components
+
 | Part                                          | Count | Optional |
 | --------------------------------------------- |:-----:|:--------:|
 | PCB                                           | 1     |          |
-| Top plate [PCB]                               | 1     | x        |
-| Bottom plate [PCB]                            | 1     |          |
-| M2 stand off 5mm                              | 6     |          |
-| M2 screw 3mm                                  | 12    |          |
-| Rubber feet                                   | 6-12  |          |
 | Diode [1N4148 SMD or THD]                     | 45    |          |
 | Kailh Choc sockets                            | 44    | x        |
 | Tactile switch Omron B3F or compatible        | 1     |          |
@@ -44,13 +41,37 @@ The CHOCTOPUS44 is 44-key column staggered keyboard with a rotary encoder.
 | MCU socket (or header rows)                   | 1 (2) | x        |
 | Extra single pin header sockets               | 2     | x        |
 | Kailh Choc key switch                         | 44    |          |
-| Choc spacing compatible keycaps (e.g. MBK)    | 44    |          |
-| Cable for MCU                                 | 1     |          |
 
+
+### Case hardware
+
+| Part                                          | Count | Optional |
+| --------------------------------------------- |:-----:|:--------:|
+| Top plate [PCB]                               | 1     | x        |
+| Bottom plate [PCB]                            | 1     |          |
+| M2 stand off 5mm                              | 6     |          |
+| M2 screw 3mm                                  | 12    |          |
+| Rubber feet                                   | 6-12  |          |
+
+
+### Example MCU cover mounting hardware
+
+| Part                                          | Count | Optional |
+| --------------------------------------------- |:-----:|:--------:|
 | M2 stand off 11mm                             | 2     |          |
 | M2 stand off 12mm                             | 1     |          |
 | M2 screw 8mm                                  | 3     |          |
 | M2 screw 10mm                                 | 3     |          |
+
+
+### Mics hardware
+
+| Part                                          | Count | Optional |
+| --------------------------------------------- |:-----:|:--------:|
+| Choc spacing compatible keycaps (e.g. MBK)    | 44    |          |
+| Cable for MCU                                 | 1     |          |
+
+
 ### Notes
 
  * Single pin sockets and the slide switch only have an use case if you plan on using a Nice!Nano or equivalent as they are used for managing battery connection.
