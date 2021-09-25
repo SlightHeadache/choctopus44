@@ -17,4 +17,4 @@ The build process is quite straight forward for the most part as most parts can 
 
 ## Images
 
-Partial visual build guide by @ItsFiremanSam [here](https://imgur.com/a/jYFxEOO)!
+Visual build guide by @ItsFiremanSam [here](https://imgur.com/a/jYFxEOO)!
