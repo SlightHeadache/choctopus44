@@ -16,14 +16,15 @@ The CHOCTOPUS44 is low profile, Choc spaced, optionally hotswappaple 44-key colu
 
   ### Lesser issues
 
-  * Choc hotswap is a little dodgy compared to MX hot swap; due to how Choc switches clip into the plate, they are not held as securely as one might hope.
-  * Some case screws are very easy to over tighten thanks to the structure of the case. This might be rectifiable with different kind of plate cut outs or leaving clearance for spacers or washers.
-  * Potentially flaky Bluetooth behaviour?
-    * Could be a Samsung A51 specific issue? Seems to be less frequent now.
-      * Could be caused by malfunctioning Nice!Nano, the unit has had a hard life
-    * Can't connect to at least my Samsung Smart TV (UE55RU8005UXXC)
-      * Probably caused by janky Smart TV OS
-    * Very old USB devices might not be able to recognize Nice!Nano, at least my 10+ year old Toshiba has issues
+  * Choc hotswap is a little dodgy compared to MX hot swap; due to how Choc switches clip into the plate, they are not held as securely as one might hope, and the clips are a bit more difficult to deal with.
+    This may result in some socketed switches being dislodged from their sockets during transport, especially on the edges as the 1.2mm switch plate is not very rigid.
+  * Some case screws are very easy to over tighten thanks to the structure of the case, especially around the MCU cover area.
+    This might be rectifiable with different kind of plate cut outs or leaving clearance for spacers or washers in a future revision.
+  * Potentially flaky Bluetooth behaviour in certain edge cases while using Nice!Nano
+    * I've observed infrequent disconnects from time to time, restarting the device has always fixed the issue
+    * Can't connect to Samsung Smart TV (UE55RU8005UXXC)
+      * Likely caused by janky Smart TV OS
+    * I have a suspicion that very old Bluetooth devices might not be able to recognize Nice!Nano, at least my 10+ year old Toshiba has issues. This could however be a Linux Bluetooth driver issue.
 
 ## Parts list
 
@@ -87,6 +88,8 @@ The CHOCTOPUS44 is low profile, Choc spaced, optionally hotswappaple 44-key colu
      ```sh
      git remote add choctopus_project git@github.com:SlightHeadache/qmk_firmware.git && git fetch choctopus_project && git checkout --track -b choctopus_project choctopus_project/master
      ```
+ * VIAL (thanks @ItsFiremanSam): https://github.com/ItsFiremanSam/vial-qmk/tree/vial/keyboards/slightheadache/choctopus44
+   * Haven't tested this myself, but it looks quite promising
  * ZMK (semantically incorrect WIP): https://github.com/SlightHeadache/zmk
    * For an easy online build using GitHub actions, fork https://github.com/SlightHeadache/zmk-config and enable Actions from *Settings -> Actions -> Allow all actions*. Then clone your fork.
      The firmware should now build automagically when you're done editing your keymap
