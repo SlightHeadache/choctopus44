@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/resources/Keebio-Parts.pretty)(options "")(descr ""))
+)

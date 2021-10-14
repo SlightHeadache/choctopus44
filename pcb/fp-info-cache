@@ -1,1037 +1,610 @@
-240143681367747
-Keebio-Parts
-3_Pin_Jumper
-
-
+140925241147692
+Button_Switch_THT
+KSA_Tactile_SPST
+KSA http://www.ckswitches.com/media/1457/ksa_ksl.pdf
+SWITCH SMD KSA SW
 0
-9
+5
+5
+Button_Switch_THT
+Nidec_Copal_SH-7010C
+4-bit rotary coded switch, through-hole, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
+rotary switch bcd
+0
+6
+5
+Button_Switch_THT
+Push_E-Switch_KS01Q01
+E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf
+Push Button
+0
+4
+4
+Button_Switch_THT
+SW_CW_GPTS203211B
+SPST Off-On Pushbutton, 1A, 30V, CW Industries P/N GPTS203211B, http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf
+SPST button switch Off-On
+0
+2
+2
+Button_Switch_THT
+SW_CuK_JS202011AQN_DPDT_Angled
+CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6
+Button_Switch_THT
+SW_CuK_JS202011CQN_DPDT_Straight
+CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6
+Button_Switch_THT
+SW_CuK_OS102011MA1QN1_SPDT_Angled
+CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+5
 3
-Keebio-Parts
-4pin35mmAudio
-
-
+Button_Switch_THT
+SW_DIP_SPSTx01_Piano_10.8x4.1mm_W7.62mm_P2.54mm
+1x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x4.1mm
+DIP Switch SPST Piano 7.62mm 300mil
+0
+2
+2
+Button_Switch_THT
+SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile
+1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+2
+2
+Button_Switch_THT
+SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm
+1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x4.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
+0
+2
+2
+Button_Switch_THT
+SW_DIP_SPSTx02_Piano_10.8x6.64mm_W7.62mm_P2.54mm
+2x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x6.64mm
+DIP Switch SPST Piano 7.62mm 300mil
+0
+4
+4
+Button_Switch_THT
+SW_DIP_SPSTx02_Piano_CTS_Series194-2MSTN_W7.62mm_P2.54mm
+2x-dip-switch SPST CTS_Series194-2MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
+DIP Switch SPST Piano 7.62mm 300mil
+0
+4
+4
+Button_Switch_THT
+SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile
+2x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x6.64mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+4
+4
+Button_Switch_THT
+SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm
+2x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x7.26mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
+0
+4
+4
+Button_Switch_THT
+SW_DIP_SPSTx03_Piano_10.8x9.18mm_W7.62mm_P2.54mm
+3x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x9.18mm
+DIP Switch SPST Piano 7.62mm 300mil
 0
 6
 6
-Keebio-Parts
-AST1109MLTRQ
-Murata Buzzer http://www.murata.com/en-us/api/pdfdownloadapi?cate=&partno=PKMCS0909E4000-R1
-Murata Buzzer Beeper
-0
-2
-2
-Keebio-Parts
-AT90USB1286_TQFP_14mm
-64-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
-QFP 0.8
-0
-64
-64
-Keebio-Parts
-ATMEGA32U4-AU
-
-
-0
-44
-44
-Keebio-Parts
-ArduinoProMicro
-
-
-0
-24
-24
-Keebio-Parts
-ArduinoProMicro-BackSide
-
-
-0
-24
-24
-Keebio-Parts
-ArduinoProMicro-Mini-USB
-
-
-0
-24
-24
-Keebio-Parts
-ArduinoProMicro-Mini-USB-No-Text
-
-
-0
-24
-24
-Keebio-Parts
-ArduinoProMicro-Mini-USB-ZigZag
-
-
-0
-24
-24
-Keebio-Parts
-ArduinoProMicro-TopSide
-
-
-0
-24
-24
-Keebio-Parts
-ArduinoProMicro-ZigZag
-
-
-0
-24
-24
-Keebio-Parts
-CUI_SJ-43614-SMT
-
-
-0
-4
-4
-Keebio-Parts
-C_0402
-Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)
-capacitor 0402
-0
-2
-2
-Keebio-Parts
-C_0603
-SMT, 1608, 0603
-SMT, 1608, 0603
-0
-2
-2
-Keebio-Parts
-Cherry-MX-Low-Profile
-
-
-0
-2
-2
-Keebio-Parts
-Crystal_SMD_2520-4pin_2.5x2.0mm
-SMD Crystal SERIES SMD2520/4 http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf, 2.5x2.0mm^2 package
-SMD SMT crystal
-0
-4
-4
-Keebio-Parts
-Crystal_SMD_3225-4pin_3.2x2.5mm
-SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
-SMD SMT crystal
-0
-4
-4
-Keebio-Parts
-D_0805
-
-
-0
-2
-2
-Keebio-Parts
-D_SOD-323
-SOD-323
-SOD-323
-0
-2
-2
-Keebio-Parts
-D_SOD123
-
-
-0
-2
-2
-Keebio-Parts
-D_SOD123F
-
-
-0
-2
-2
-Keebio-Parts
-Diode
-
-
-0
-2
-2
-Keebio-Parts
-Diode-Hybrid-Back
-
-
+Button_Switch_THT
+SW_DIP_SPSTx03_Piano_CTS_Series194-3MSTN_W7.62mm_P2.54mm
+3x-dip-switch SPST CTS_Series194-3MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
+DIP Switch SPST Piano 7.62mm 300mil
 0
 6
-2
-Keebio-Parts
-Diode-dual
-
-
+6
+Button_Switch_THT
+SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile
+3x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x9.18mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+6
+6
+Button_Switch_THT
+SW_DIP_SPSTx03_Slide_9.78x9.8mm_W7.62mm_P2.54mm
+3x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x9.8mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
+0
+6
+6
+Button_Switch_THT
+SW_DIP_SPSTx04_Piano_10.8x11.72mm_W7.62mm_P2.54mm
+4x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x11.72mm
+DIP Switch SPST Piano 7.62mm 300mil
+0
+8
+8
+Button_Switch_THT
+SW_DIP_SPSTx04_Piano_CTS_Series194-4MSTN_W7.62mm_P2.54mm
+4x-dip-switch SPST CTS_Series194-4MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
+DIP Switch SPST Piano 7.62mm 300mil
+0
+8
+8
+Button_Switch_THT
+SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile
+4x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x11.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+8
+8
+Button_Switch_THT
+SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm
+4x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x12.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
+0
+8
+8
+Button_Switch_THT
+SW_DIP_SPSTx05_Piano_10.8x14.26mm_W7.62mm_P2.54mm
+5x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x14.26mm
+DIP Switch SPST Piano 7.62mm 300mil
 0
 10
-2
-Keebio-Parts
-Diode-hybrid-3pad
-
-
+10
+Button_Switch_THT
+SW_DIP_SPSTx05_Piano_CTS_Series194-5MSTN_W7.62mm_P2.54mm
+5x-dip-switch SPST CTS_Series194-5MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
+DIP Switch SPST Piano 7.62mm 300mil
 0
-6
-2
-Keebio-Parts
-Diode_Long
-
-
+10
+10
+Button_Switch_THT
+SW_DIP_SPSTx05_Slide_6.7x14.26mm_W7.62mm_P2.54mm_LowProfile
+5x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x14.26mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
 0
-2
-2
-Keebio-Parts
-Elite-C
-
-
+10
+10
+Button_Switch_THT
+SW_DIP_SPSTx05_Slide_9.78x14.88mm_W7.62mm_P2.54mm
+5x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x14.88mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
 0
-29
-29
-Keebio-Parts
-Elite-C-ZigZag
-
-
+10
+10
+Button_Switch_THT
+SW_DIP_SPSTx06_Piano_10.8x16.8mm_W7.62mm_P2.54mm
+6x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x16.8mm
+DIP Switch SPST Piano 7.62mm 300mil
 0
-29
-29
-Keebio-Parts
-Elite-C-castellated-24pin
-
-
+12
+12
+Button_Switch_THT
+SW_DIP_SPSTx06_Piano_CTS_Series194-6MSTN_W7.62mm_P2.54mm
+6x-dip-switch SPST CTS_Series194-6MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
+DIP Switch SPST Piano 7.62mm 300mil
 0
-24
-24
-Keebio-Parts
-Elite-C-castellated-24pin-holes
-
-
+12
+12
+Button_Switch_THT
+SW_DIP_SPSTx06_Slide_6.7x16.8mm_W7.62mm_P2.54mm_LowProfile
+6x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x16.8mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
 0
-48
-24
-Keebio-Parts
-Elite-C-castellated-29pin
-
-
+12
+12
+Button_Switch_THT
+SW_DIP_SPSTx06_Slide_9.78x17.42mm_W7.62mm_P2.54mm
+6x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x17.42mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
 0
-29
-29
-Keebio-Parts
-Elite-C-castellated-29pin-holes
-
-
+12
+12
+Button_Switch_THT
+SW_DIP_SPSTx07_Piano_10.8x19.34mm_W7.62mm_P2.54mm
+7x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x19.34mm
+DIP Switch SPST Piano 7.62mm 300mil
 0
-58
-29
-Keebio-Parts
-Epson_TSX-3225
-
-
+14
+14
+Button_Switch_THT
+SW_DIP_SPSTx07_Piano_CTS_Series194-7MSTN_W7.62mm_P2.54mm
+7x-dip-switch SPST CTS_Series194-7MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
+DIP Switch SPST Piano 7.62mm 300mil
 0
-4
-4
-Keebio-Parts
-Fuse_0805
-SMT, 2012, 0805
-SMT, 2012, 0805
+14
+14
+Button_Switch_THT
+SW_DIP_SPSTx07_Slide_6.7x19.34mm_W7.62mm_P2.54mm_LowProfile
+7x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x19.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
 0
-2
-2
-Keebio-Parts
-HRO-TYPE-C-31-M-12-Assembly
-
-
+14
+14
+Button_Switch_THT
+SW_DIP_SPSTx07_Slide_9.78x19.96mm_W7.62mm_P2.54mm
+7x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x19.96mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
+0
+14
+14
+Button_Switch_THT
+SW_DIP_SPSTx08_Piano_10.8x21.88mm_W7.62mm_P2.54mm
+8x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x21.88mm
+DIP Switch SPST Piano 7.62mm 300mil
 0
 16
-13
-Keebio-Parts
-Header-6-Pin-ZigZag
-Through hole straight socket strip, 1x06, 2.54mm pitch, single row
-Through hole socket strip THT 1x06 2.54mm single row
+16
+Button_Switch_THT
+SW_DIP_SPSTx08_Piano_CTS_Series194-8MSTN_W7.62mm_P2.54mm
+8x-dip-switch SPST CTS_Series194-8MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
+DIP Switch SPST Piano 7.62mm 300mil
 0
-6
-6
-Keebio-Parts
-Header-12-Pin-ZigZag
-Through hole straight socket strip, 1x06, 2.54mm pitch, single row
-Through hole socket strip THT 1x06 2.54mm single row
+16
+16
+Button_Switch_THT
+SW_DIP_SPSTx08_Slide_6.7x21.88mm_W7.62mm_P2.54mm_LowProfile
+8x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x21.88mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
 0
-12
-12
-Keebio-Parts
-Header-12-Pin-ZigZag-Square
-Through hole straight socket strip, 1x06, 2.54mm pitch, single row
-Through hole socket strip THT 1x06 2.54mm single row
+16
+16
+Button_Switch_THT
+SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm
+8x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x22.5mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
 0
-12
-12
-Keebio-Parts
-ICSP-Header
-Through hole straight socket strip, 1x06, 2.54mm pitch, single row
-Through hole socket strip THT 1x06 2.54mm single row
+16
+16
+Button_Switch_THT
+SW_DIP_SPSTx09_Piano_10.8x24.42mm_W7.62mm_P2.54mm
+9x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x24.42mm
+DIP Switch SPST Piano 7.62mm 300mil
 0
-6
-6
-Keebio-Parts
-ICSP-Header-ZigZag
-Through hole straight socket strip, 1x06, 2.54mm pitch, single row
-Through hole socket strip THT 1x06 2.54mm single row
+18
+18
+Button_Switch_THT
+SW_DIP_SPSTx09_Piano_CTS_Series194-9MSTN_W7.62mm_P2.54mm
+9x-dip-switch SPST CTS_Series194-9MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
+DIP Switch SPST Piano 7.62mm 300mil
 0
-6
-6
-Keebio-Parts
-JUMPER_SMD_2DUB
-
-
+18
+18
+Button_Switch_THT
+SW_DIP_SPSTx09_Slide_6.7x24.42mm_W7.62mm_P2.54mm_LowProfile
+9x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x24.42mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
 0
-12
-2
-Keebio-Parts
-KLJ-1102
-
-
+18
+18
+Button_Switch_THT
+SW_DIP_SPSTx09_Slide_9.78x25.04mm_W7.62mm_P2.54mm
+9x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x25.04mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
 0
-2
-2
-Keebio-Parts
-Kailh-PG1350-1.5u
-
-
+18
+18
+Button_Switch_THT
+SW_DIP_SPSTx10_Piano_10.8x26.96mm_W7.62mm_P2.54mm
+10x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x26.96mm
+DIP Switch SPST Piano 7.62mm 300mil
 0
-4
-4
-Keebio-Parts
-Kailh-PG1350-1.25u
-
-
+20
+20
+Button_Switch_THT
+SW_DIP_SPSTx10_Piano_CTS_Series194-10MSTN_W7.62mm_P2.54mm
+10x-dip-switch SPST CTS_Series194-10MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
+DIP Switch SPST Piano 7.62mm 300mil
 0
-4
-4
-Keebio-Parts
-Kailh-PG1350-1.25u-LED-flip
-
-
+20
+20
+Button_Switch_THT
+SW_DIP_SPSTx10_Slide_6.7x26.96mm_W7.62mm_P2.54mm_LowProfile
+10x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x26.96mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
 0
-4
-4
-Keebio-Parts
-Kailh-PG1350-1u
-
-
+20
+20
+Button_Switch_THT
+SW_DIP_SPSTx10_Slide_9.78x27.58mm_W7.62mm_P2.54mm
+10x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x27.58mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
 0
-4
-4
-Keebio-Parts
-Kailh-PG1350-1u-No-Clickhole
-
-
+20
+20
+Button_Switch_THT
+SW_DIP_SPSTx11_Piano_10.8x29.5mm_W7.62mm_P2.54mm
+11x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x29.5mm
+DIP Switch SPST Piano 7.62mm 300mil
 0
-4
-4
-Keebio-Parts
-Kailh-PG1350-1u-NoLED
-
-
+22
+22
+Button_Switch_THT
+SW_DIP_SPSTx11_Piano_CTS_Series194-11MSTN_W7.62mm_P2.54mm
+11x-dip-switch SPST CTS_Series194-11MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
+DIP Switch SPST Piano 7.62mm 300mil
 0
-2
-2
-Keebio-Parts
-Kailh-PG1350-1u-clickhole-no-led
-
-
+22
+22
+Button_Switch_THT
+SW_DIP_SPSTx11_Slide_6.7x29.5mm_W7.62mm_P2.54mm_LowProfile
+11x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x29.5mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
 0
-2
-2
-Keebio-Parts
-Kailh-PG1350-1u-reversible
-
-
+22
+22
+Button_Switch_THT
+SW_DIP_SPSTx11_Slide_9.78x30.12mm_W7.62mm_P2.54mm
+11x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x30.12mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
 0
-5
-4
-Keebio-Parts
-Kailh-PG1350-1u-reversible-No-Clickhole
-
-
+22
+22
+Button_Switch_THT
+SW_DIP_SPSTx12_Piano_10.8x32.04mm_W7.62mm_P2.54mm
+12x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x32.04mm
+DIP Switch SPST Piano 7.62mm 300mil
 0
-5
-4
-Keebio-Parts
-Kailh-PG1350-1u-reversible-flip
-
-
+24
+24
+Button_Switch_THT
+SW_DIP_SPSTx12_Piano_CTS_Series194-12MSTN_W7.62mm_P2.54mm
+12x-dip-switch SPST CTS_Series194-12MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
+DIP Switch SPST Piano 7.62mm 300mil
 0
-5
-4
-Keebio-Parts
-Kailh-PG1350-2.5u
-
-
+24
+24
+Button_Switch_THT
+SW_DIP_SPSTx12_Slide_6.7x32.04mm_W7.62mm_P2.54mm_LowProfile
+12x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x32.04mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
 0
-4
-4
-Keebio-Parts
-Kailh-PG1350-2u
-
-
+24
+24
+Button_Switch_THT
+SW_DIP_SPSTx12_Slide_9.78x32.66mm_W7.62mm_P2.54mm
+12x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x32.66mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
 0
-4
-4
-Keebio-Parts
-Kailh-PG1350-2u-NoLED
-
-
-0
-2
-2
-Keebio-Parts
-Kailh-PG1350-2u-Vert-NoLED
-
-
-0
-2
-2
-Keebio-Parts
-LED_3mm
-
-
-0
-2
-2
-Keebio-Parts
-LQFP-48_7x7mm_Pitch0.5mm
-48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)
-QFP 0.5
-0
-48
-48
-Keebio-Parts
-Low-Profile-Choc-MX
-
-
-0
-5
-4
-Keebio-Parts
-MD_Diode
-
-
-0
-2
-2
-Keebio-Parts
-MX-Alps-Choc-1U
-
-
-0
-8
-4
-Keebio-Parts
-MX-Alps-Choc-1U-No-Clickhole
-
-
-0
-8
-4
-Keebio-Parts
-MX-Alps-Choc-1U-NoLED
-
-
-0
-6
-2
-Keebio-Parts
-MX-Alps-Choc-1U-NoLED-Alt
-
-
-0
-6
-2
-Keebio-Parts
-MX-Alps-Choc-2U
-
-
-0
-8
-4
-Keebio-Parts
-MX-Alps-Choc-2U-StabFlip
-
-
-0
-8
-4
-Keebio-Parts
-MX-Alps_DMask
-
-
-0
-2
-1
-Keebio-Parts
-MX-Alps_FMask
-
-
-0
-2
-1
-Keebio-Parts
-MX-Alps_FMask-2u
-
-
-0
-2
-1
-Keebio-Parts
-MX-Alps_Switch_Cutout
-
-
-0
-2
-1
-Keebio-Parts
-MX-Alps_Switch_Cutout-1u_1.25u
-
-
-0
-0
-0
-Keebio-Parts
-MX-Alps_Switch_Cutout-1u_1.25u-3u-wide
-
-
-0
-0
-0
-Keebio-Parts
-MX-Alps_Switch_Cutout-1u_2u
-
-
-0
-2
-1
-Keebio-Parts
-MX-Alps_Switch_Cutout-3u-wide
-
-
-0
-0
-0
-Keebio-Parts
-MX-Quad
-MX/Alps footprint
-
-0
-8
-2
-Keebio-Parts
-MX_FMask
-
-
-0
-2
-1
-Keebio-Parts
-MX_FMask-2u
-
-
-0
-3
-1
-Keebio-Parts
-MX_FMask-2u-with-cutout
-
-
-0
-2
-1
-Keebio-Parts
-MX_FMask-with-cutout
-
-
-0
-2
-1
-Keebio-Parts
-MX_LED
-
-
-0
-2
-2
-Keebio-Parts
-MX_Stabilizer_Cutout
-
-
-0
-0
-0
-Keebio-Parts
-MX_Stabilizer_Cutout-2u
-
-
-0
-0
-0
-Keebio-Parts
-MX_Switch_Cutout
-
-
-0
-0
-0
-Keebio-Parts
-MX_Switch_Mod_Cutout
-
-
-0
-0
-0
-Keebio-Parts
-Mini-USB
-
-
+24
+24
+Button_Switch_THT
+SW_E-Switch_EG1224_SPDT_Angled
+E-Switch slide switch, EG series, SPDT, right angle, http://spec_sheets.e-switch.com/specs/P040042.pdf
+switch SPDT
 0
 7
+3
+Button_Switch_THT
+SW_E-Switch_EG1271_DPDT
+E-Switch sub miniature slide switch, EG series, DPDT, http://spec_sheets.e-switch.com/specs/P040047.pdf
+switch DPDT
+0
 6
-Keebio-Parts
-MountingHole
-
-
-0
-1
-0
-Keebio-Parts
-QFN-44-1EP_7x7mm_Pitch0.5mm
-UK Package; 44-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_44_05-08-1763.pdf)
-QFN 0.5
-0
-60
-45
-Keebio-Parts
-RGB-6028
-
-
-0
-4
-4
-Keebio-Parts
-RGB_3528_Blue_Notch
-RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
-LED 3227
-0
-4
-4
-Keebio-Parts
-RGB_3528_Blue_Notch-MX
-RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
-LED 3227
-0
-4
-4
-Keebio-Parts
-RGB_3528_Blue_Notch-MX-Flip
-RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
-LED 3227
-0
-4
-4
-Keebio-Parts
-R_0402
-Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
-resistor 0402
-0
-2
-2
-Keebio-Parts
-R_0603
-SMT, 1608, 0603
-SMT, 1608, 0603
-0
-2
-2
-Keebio-Parts
-R_0805
-SMT, 2012, 0805
-SMT, 2012, 0805
-0
-2
-2
-Keebio-Parts
-Resistor
-
-
-0
-2
-2
-Keebio-Parts
-Resistor-Compact
-
-
-0
-2
-2
-Keebio-Parts
-Resistor-Compact-1-side
-
-
-0
-2
-2
-Keebio-Parts
-Resistor-Hybrid
-
-
+6
+Button_Switch_THT
+SW_E-Switch_EG2219_DPDT_Angled
+E-Switch slide switch, EG series, DPDT, right angle, http://spec_sheets.e-switch.com/specs/P040170.pdf
+switch DPDT
 0
 10
-2
-Keebio-Parts
-Resistor-Hybrid-Back
-
-
-0
 6
-2
-Keebio-Parts
-RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
-Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
-rotary encoder
-0
-7
-6
-Keebio-Parts
-RotaryEncoder_EC11
-Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
-rotary encoder
+Button_Switch_THT
+SW_Lever_1P2T_NKK_GW12LxH
+Switch, single pole double throw, right angle, http://www.nkkswitches.com/pdf/GW.pdf
+switch single-pole double-throw spdt ON-ON horizontal
 0
 5
-5
-Keebio-Parts
-RotaryEncoder_EC11-no-legs
-Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
-rotary encoder
-0
-5
-5
-Keebio-Parts
-SK6812-MINI-E
-
-
+3
+Button_Switch_THT
+SW_MEC_5GTH9
+MEC 5G single pole normally-open tactile switch https://cdn.sos.sk/productdata/80/f6/aabf7be6/5gth9358222.pdf
+switch normally-open pushbutton push-button
 0
 4
-4
-Keebio-Parts
-SM0805D
-
-
+2
+Button_Switch_THT
+SW_NKK_BB15AH
+https://www.nkkswitches.com/pdf/Bpushbuttons-1.pdf
+Pushbutton Right-angle
 0
+5
+3
+Button_Switch_THT
+SW_NKK_G1xJP
+Switch NKK G1xJP http://www.nkkswitches.com/pdf/gwillum.pdf
+SWITCH TOGGLE ILLUM SPDT NKK
+0
+6
+6
+Button_Switch_THT
+SW_NKK_GW12LJP
+Switch, single pole double throw, illuminated paddle, http://www.nkkswitches.com/pdf/gwillum.pdf
+switch single-pole double-throw spdt ON-ON illuminated LED
+0
+6
+6
+Button_Switch_THT
+SW_PUSH-12mm
+SW PUSH 12mm https://www.e-switch.com/system/asset/product_line/data_sheet/143/TL1100.pdf
+tact sw push 12mm
+0
+4
 2
+Button_Switch_THT
+SW_PUSH-12mm_Wuerth-430476085716
+SW PUSH 12mm http://katalog.we-online.de/em/datasheet/430476085716.pdf
+tact sw push 12mm
+0
+4
 2
-Keebio-Parts
-SOIC-8_3.9x4.9mm_Pitch1.27mm
-8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
+Button_Switch_THT
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
+Button_Switch_THT
+SW_PUSH_6mm_H4.3mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm
+tact sw push 6mm
+0
+4
+2
+Button_Switch_THT
+SW_PUSH_6mm_H5mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=5mm
+tact sw push 6mm
+0
+4
+2
+Button_Switch_THT
+SW_PUSH_6mm_H7.3mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=7.3mm
+tact sw push 6mm
+0
+4
+2
+Button_Switch_THT
+SW_PUSH_6mm_H8.5mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=8.5mm
+tact sw push 6mm
+0
+4
+2
+Button_Switch_THT
+SW_PUSH_6mm_H8mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=8mm
+tact sw push 6mm
+0
+4
+2
+Button_Switch_THT
+SW_PUSH_6mm_H9.5mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=9.5mm
+tact sw push 6mm
+0
+4
+2
+Button_Switch_THT
+SW_PUSH_6mm_H13mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=13mm
+tact sw push 6mm
+0
+4
+2
+Button_Switch_THT
+SW_PUSH_E-Switch_FS5700DP_DPDT
+FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf
+switch DPDT footswitch
+0
+6
+6
+Button_Switch_THT
+SW_PUSH_LCD_E3_SAxxxx
+Switch with LCD screen E3 SAxxxx
+switch normally-open pushbutton push-button LCD
+0
+6
+6
+Button_Switch_THT
+SW_PUSH_LCD_E3_SAxxxx_SocketPins
+Switch with LCD screen E3 SAxxxx
+switch normally-open pushbutton push-button LCD
+0
+6
+6
+Button_Switch_THT
+SW_Push_1P1T_NO_LED_E-Switch_TL1250
+illuminated right angle tact switch https://www.e-switch.com/system/asset/product_line/data_sheet/148/TL1250.pdf
+led push switch right angle
+0
+6
+4
+Button_Switch_THT
+SW_Push_1P2T_Vertical_E-Switch_800UDP8P1A1M6
+ right angle SPDT push button https://www.e-switch.com/system/asset/product_line/data_sheet/210/800U.pdf
+IP67 ultra-miniture horizontal
+0
+5
+3
+Button_Switch_THT
+SW_Push_2P2T_Vertical_E-Switch_800UDP8P1A1M6
+ right angle DPDT push button https://www.e-switch.com/system/asset/product_line/data_sheet/210/800U.pdf
+IP67 ultra-miniture horizontal
 0
 8
-8
-Keebio-Parts
-SOT-23
-SOT-23, Standard
-SOT-23
+6
+Button_Switch_THT
+SW_Slide_1P2T_CK_OS102011MS2Q
+CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
 0
+5
 3
-3
-Keebio-Parts
-SOT-23_Handsoldering
-SOT-23, Handsoldering
-SOT-23
-0
-3
-3
-Keebio-Parts
-SOT-143B
-SOT143B
-
+Button_Switch_THT
+SW_TH_Tactile_Omron_B3F-10xx
+SW_TH_Tactile_Omron_B3F-10xx_https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+Omron B3F-10xx
 0
 4
 4
-Keebio-Parts
-SOT-363_SC-70-6
-SOT-363, SC-70-6
-SOT-363 SC-70-6
-0
-6
-6
-Keebio-Parts
-SW_SPST_3x3
-Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
-SPST Tactile Switch
+Button_Switch_THT
+SW_Tactile_SKHH_Angled
+tactile switch 6mm ALPS SKHH right angle http://www.alps.com/prod/info/E/HTML/Tact/SnapIn/SKHH/SKHHLUA010.html
+tactile switch 6mm ALPS SKHH right angle
 0
 4
 2
-Keebio-Parts
-SW_SPST_TL3342
-Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
-SPST Tactile Switch
+Button_Switch_THT
+SW_Tactile_SPST_Angled_PTS645Vx31-2LFS
+tactile switch SPST right angle, PTS645VL31-2 LFS
+tactile switch SPST angled PTS645VL31-2 LFS C&K Button
 0
 4
 2
-Keebio-Parts
-SW_Tactile_SPST_Angled_MJTP1117
+Button_Switch_THT
+SW_Tactile_SPST_Angled_PTS645Vx39-2LFS
 tactile switch SPST right angle, PTS645VL39-2 LFS
 tactile switch SPST angled PTS645VL39-2 LFS C&K Button
 0
 4
 2
-Keebio-Parts
-SW_Tactile_SPST_Angled_MJTP1117-no-mount
-tactile switch SPST right angle, PTS645VL39-2 LFS
-tactile switch SPST angled PTS645VL39-2 LFS C&K Button
+Button_Switch_THT
+SW_Tactile_SPST_Angled_PTS645Vx58-2LFS
+tactile switch SPST right angle, PTS645VL58-2 LFS
+tactile switch SPST angled PTS645VL58-2 LFS C&K Button
 0
+4
 2
+Button_Switch_THT
+SW_Tactile_SPST_Angled_PTS645Vx83-2LFS
+tactile switch SPST right angle, PTS645VL83-2 LFS
+tactile switch SPST angled PTS645VL83-2 LFS C&K Button
+0
+4
 2
-Keebio-Parts
-SinglePad
-
-
-0
-1
-1
-Keebio-Parts
-SolderJumper
-
-
+Button_Switch_THT
+SW_Tactile_Straight_KSA0Axx1LFTR
+SW PUSH SMALL http://www.ckswitches.com/media/1457/ksa_ksl.pdf
+SW PUSH SMALL Tactile C&K
 0
 4
-3
-Keebio-Parts
-SolderJumperLeft
-
-
-0
-3
-3
-Keebio-Parts
-SolderJumperPair
-
-
-0
-6
-3
-Keebio-Parts
-SolderJumperRight
-
-
-0
-3
-3
-Keebio-Parts
-SolderJumperSet
-
-
-0
-12
-6
-Keebio-Parts
-SolderJumperSets
-
-
-0
-6
 2
-Keebio-Parts
-SolidCopper
-Mounting Hole 2.2mm, M2
-mounting hole 2.2mm m2
-0
-2
-1
-Keebio-Parts
-TQFP-44_10x10mm_Pitch0.8mm
-44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
-QFP 0.8
-0
-44
-44
-Keebio-Parts
-TQFP-48_7x7mm_Pitch0.5mm
-48 LEAD TQFP 7x7mm (see MICREL TQFP7x7-48LD-PL-1.pdf)
-QFP 0.5
-0
-48
-48
-Keebio-Parts
-TRRS-PJ-320A
-
-
+Button_Switch_THT
+SW_Tactile_Straight_KSL0Axx1LFTR
+SW PUSH SMALL http://www.ckswitches.com/media/1457/ksa_ksl.pdf
+SW PUSH SMALL Tactile C&K
 0
 4
-4
-Keebio-Parts
-TRRS-PJ-320A-dual
-
-
-0
-5
-4
-Keebio-Parts
-TRRS-PJ-320A-no-Fmask
-
-
-0
-8
-4
-Keebio-Parts
-TRRS-PJ-320D
-
-
-0
-4
-4
-Keebio-Parts
-TRRS-PJ-605
-
-
-0
-6
-6
-Keebio-Parts
-TRRS-PJ-606
-
-
-0
-6
-6
-Keebio-Parts
-TRRS_Jack
-
-
-0
-6
-6
-Keebio-Parts
-TRRS_Jack-one-sided
-
-
-0
-4
-4
-Keebio-Parts
-TRRS_Jumper
-
-
-0
-6
-6
-Keebio-Parts
-Teensy_2.0
-
-
-0
-31
-31
-Keebio-Parts
-Triple-Dual-1u-LED
-
-
-0
-21
-4
-Keebio-Parts
-Triple-Dual-1u-LED-flip
-
-
-0
-21
-4
-Keebio-Parts
-Triple-Dual-2u-LED
-
-
-0
-21
-4
-Keebio-Parts
-Triple-Dual-2u-LED-stab-flip
-
-
-0
-21
-4
-Keebio-Parts
-USB-C-12-Pin-MidMount
-
-
-0
-16
-13
-Keebio-Parts
-USB-Mini-B_ LCSC-C46398
-
-
-0
-9
-6
-Keebio-Parts
-USB-Mini-B_2leg
-
-
-0
-7
-6
-Keebio-Parts
-USB_miniB_HandSolder
-http://www.hirose.co.jp/cataloge_hp/e24000019.pdf
-USB miniB hirose
-0
-9
-9
-Keebio-Parts
-VIA-0.6mm
-
-
-0
-1
-1
-Keebio-Parts
-WS2812B
-
-
-0
-4
-4
-Keebio-Parts
-breakaway-hole
-
-
-0
-0
-0
-Keebio-Parts
-breakaway-hole-big
-
-
-0
-0
-0
-Keebio-Parts
-breakaway-mousebites
-
-
-0
-0
-0
-Keebio-Parts
-solder_jumper
-
-
-0
-2
 2

@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name reviung41-rescue)(type Legacy)(uri ${KIPRJMOD}/reviung41-rescue.lib)(options "")(descr ""))
   (lib (name choctopus44-rescue)(type Legacy)(uri ${KIPRJMOD}/choctopus44-rescue.lib)(options "")(descr ""))
+  (lib (name keebio)(type Legacy)(uri ${KIPRJMOD}/resources/keebio.lib)(options "")(descr ""))
 )

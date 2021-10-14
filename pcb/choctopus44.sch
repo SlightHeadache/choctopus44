@@ -58,14 +58,14 @@ F 3 "" H 1300 850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L choctopus44-rescue:ProMicro-_reviung-kbd-reviung41-rescue U1
+L keebio:ProMicro U1
 U 1 1 5DCBB133
-P 1800 2200
-F 0 "U1" H 1800 3237 60  0000 C CNN
-F 1 "ProMicro" H 1800 3131 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro" H 1900 1150 60  0001 C CNN
-F 3 "" H 1900 1150 60  0000 C CNN
-	1    1800 2200
+P 1800 2000
+F 0 "U1" H 1800 3037 60  0000 C CNN
+F 1 "ProMicro" H 1800 2931 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" H 1900 950 60  0001 C CNN
+F 3 "" H 1900 950 60  0000 C CNN
+	1    1800 2000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -153,17 +153,6 @@ Text GLabel 2500 2450 2    50   Input ~ 0
 row6
 Text GLabel 3250 7050 0    50   Input ~ 0
 reset
-$Comp
-L Switch:SW_DPST RESET1
-U 1 1 5DD41146
-P 3550 7050
-F 0 "RESET1" H 3550 7305 50  0000 C CNN
-F 1 "SW_PUSH" H 3550 7214 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 3550 7050 50  0001 C CNN
-F 3 "" H 3550 7050 50  0000 C CNN
-	1    3550 7050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3750 1050 3750 1350
 Wire Wire Line
@@ -1340,79 +1329,38 @@ Connection ~ 8350 5550
 Wire Wire Line
 	8350 5550 9350 5550
 $Comp
-L Switch:SW_DPST SW_PWR1
-U 1 1 60DF3383
-P 1800 3700
-F 0 "SW_PWR1" H 1800 4025 50  0000 C CNN
-F 1 "SW_DPST" H 1800 3934 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_E-Switch_EG1271_DPDT" H 1800 3700 50  0001 C CNN
-F 3 "~" H 1800 3700 50  0001 C CNN
-	1    1800 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+BATT #PWR0102
 U 1 1 60DF5849
-P 1200 3850
-F 0 "#PWR0102" H 1200 3700 50  0001 C CNN
-F 1 "+BATT" H 1215 4023 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1200 3850 50  0001 C CNN
-F 3 "" H 1200 3850 50  0001 C CNN
-	1    1200 3850
-	1    0    0    -1  
+P 1800 4300
+F 0 "#PWR0102" H 1800 4150 50  0001 C CNN
+F 1 "+BATT" H 1815 4473 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1800 4300 50  0001 C CNN
+F 3 "" H 1800 4300 50  0001 C CNN
+	1    1800 4300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:-BATT #PWR0103
 U 1 1 60DF6A16
-P 1200 3550
-F 0 "#PWR0103" H 1200 3400 50  0001 C CNN
-F 1 "-BATT" H 1215 3723 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1200 3550 50  0001 C CNN
-F 3 "" H 1200 3550 50  0001 C CNN
-	1    1200 3550
-	1    0    0    -1  
+P 1800 3900
+F 0 "#PWR0103" H 1800 3750 50  0001 C CNN
+F 1 "-BATT" H 1815 4073 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1800 3900 50  0001 C CNN
+F 3 "" H 1800 3900 50  0001 C CNN
+	1    1800 3900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:Battery_Cell BT1
 U 1 1 60DF8FE8
-P 2350 3750
-F 0 "BT1" H 2468 3846 50  0000 L CNN
-F 1 "Battery_Cell" H 2468 3755 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" V 2350 3810 50  0001 C CNN
-F 3 "~" V 2350 3810 50  0001 C CNN
-	1    2350 3750
-	1    0    0    -1  
+P 2450 3950
+F 0 "BT1" H 2150 4000 50  0000 L CNN
+F 1 "Battery_Cell" H 1900 3900 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" V 2450 4010 50  0001 C CNN
+F 3 "~" V 2450 4010 50  0001 C CNN
+	1    2450 3950
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2350 3550 2000 3550
-Wire Wire Line
-	2000 3550 2000 3600
-Wire Wire Line
-	2350 3850 2000 3850
-Wire Wire Line
-	2000 3850 2000 3800
-Wire Wire Line
-	1600 3800 1600 3850
-Wire Wire Line
-	1600 3850 1200 3850
-Wire Wire Line
-	1200 3550 1600 3550
-Wire Wire Line
-	1600 3550 1600 3600
-Wire Wire Line
-	3250 7050 3350 7050
-Wire Wire Line
-	3350 7050 3350 6950
-Wire Wire Line
-	3350 7050 3350 7150
-Connection ~ 3350 7050
-Wire Wire Line
-	3750 6950 3750 7050
-Wire Wire Line
-	3750 7050 3850 7050
-Wire Wire Line
-	3750 7150 3750 7050
-Connection ~ 3750 7050
 Wire Wire Line
 	3750 5900 3850 5900
 Wire Wire Line
@@ -1712,4 +1660,38 @@ Wire Wire Line
 	7350 5900 7250 5900
 Wire Wire Line
 	6850 5900 6750 5900
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61758023
+P 3550 7050
+F 0 "SW?" H 3550 7335 50  0000 C CNN
+F 1 "SW_SPST" H 3550 7244 50  0000 C CNN
+F 2 "" H 3550 7050 50  0001 C CNN
+F 3 "~" H 3550 7050 50  0001 C CNN
+	1    3550 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 7050 3350 7050
+Wire Wire Line
+	3750 7050 3850 7050
+$Comp
+L Switch:SW_Push_DPDT SW?
+U 1 1 6182255A
+P 2000 4100
+F 0 "SW?" H 2000 4585 50  0000 C CNN
+F 1 "SW_Push_DPDT" H 2000 4494 50  0000 C CNN
+F 2 "" H 2000 4300 50  0001 C CNN
+F 3 "~" H 2000 4300 50  0001 C CNN
+	1    2000 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4200 2450 4150
+Wire Wire Line
+	2200 4200 2450 4200
+Wire Wire Line
+	2450 3850 2450 3800
+Wire Wire Line
+	2450 3800 2200 3800
 $EndSCHEMATC
