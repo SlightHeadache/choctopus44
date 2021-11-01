@@ -1364,17 +1364,7 @@ $EndComp
 Wire Wire Line
 	3250 7050 3350 7050
 Wire Wire Line
-	3350 7050 3350 6950
-Wire Wire Line
-	3350 7050 3350 7150
-Connection ~ 3350 7050
-Wire Wire Line
-	3750 6950 3750 7050
-Wire Wire Line
 	3750 7050 3850 7050
-Wire Wire Line
-	3750 7150 3750 7050
-Connection ~ 3750 7050
 Wire Wire Line
 	3750 5900 3850 5900
 Wire Wire Line
@@ -1698,14 +1688,14 @@ Wire Wire Line
 Wire Wire Line
 	1550 3550 1600 3550
 $Comp
-L Switch:SW_Push_Dual RESET1
-U 1 1 618A4AC7
-P 3550 6950
-F 0 "RESET1" H 3550 7235 50  0000 C CNN
-F 1 "SW_Push_Dual" H 3550 7144 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 3550 7150 50  0001 C CNN
-F 3 "~" H 3550 7150 50  0001 C CNN
-	1    3550 6950
+L Switch:SW_Push RESET1
+U 1 1 618CBE5E
+P 3550 7050
+F 0 "RESET1" H 3550 7335 50  0000 C CNN
+F 1 "SW_Push" H 3550 7244 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3550 7250 50  0001 C CNN
+F 3 "~" H 3550 7250 50  0001 C CNN
+	1    3550 7050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

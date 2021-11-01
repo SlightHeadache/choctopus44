@@ -153,17 +153,6 @@ Text GLabel 2500 2450 2    50   Input ~ 0
 row6
 Text GLabel 3250 7050 0    50   Input ~ 0
 reset
-$Comp
-L Switch:SW_DPST RESET1
-U 1 1 5DD41146
-P 3550 7050
-F 0 "RESET1" H 3550 7305 50  0000 C CNN
-F 1 "SW_PUSH" H 3550 7214 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 3550 7050 50  0001 C CNN
-F 3 "" H 3550 7050 50  0000 C CNN
-	1    3550 7050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3750 1050 3750 1350
 Wire Wire Line
@@ -1708,4 +1697,15 @@ Wire Wire Line
 	1550 3950 1600 3950
 Wire Wire Line
 	1550 3550 1600 3550
+$Comp
+L Switch:SW_Push_Dual RESET1
+U 1 1 618A4AC7
+P 3550 6950
+F 0 "RESET1" H 3550 7235 50  0000 C CNN
+F 1 "SW_Push_Dual" H 3550 7144 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 3550 7150 50  0001 C CNN
+F 3 "~" H 3550 7150 50  0001 C CNN
+	1    3550 6950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
