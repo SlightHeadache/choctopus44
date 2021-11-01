@@ -153,17 +153,6 @@ Text GLabel 2500 2450 2    50   Input ~ 0
 row6
 Text GLabel 3250 7050 0    50   Input ~ 0
 reset
-$Comp
-L Switch:SW_DPST RESET1
-U 1 1 5DD41146
-P 3550 7050
-F 0 "RESET1" H 3550 7305 50  0000 C CNN
-F 1 "SW_PUSH" H 3550 7214 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 3550 7050 50  0001 C CNN
-F 3 "" H 3550 7050 50  0000 C CNN
-	1    3550 7050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3750 1050 3750 1350
 Wire Wire Line
@@ -1340,65 +1329,38 @@ Connection ~ 8350 5550
 Wire Wire Line
 	8350 5550 9350 5550
 $Comp
-L Switch:SW_DPST SW_PWR1
-U 1 1 60DF3383
-P 1800 3700
-F 0 "SW_PWR1" H 1800 4025 50  0000 C CNN
-F 1 "SW_DPST" H 1800 3934 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_E-Switch_EG1271_DPDT" H 1800 3700 50  0001 C CNN
-F 3 "~" H 1800 3700 50  0001 C CNN
-	1    1800 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+BATT #PWR0102
 U 1 1 60DF5849
-P 1200 3850
-F 0 "#PWR0102" H 1200 3700 50  0001 C CNN
-F 1 "+BATT" H 1215 4023 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1200 3850 50  0001 C CNN
-F 3 "" H 1200 3850 50  0001 C CNN
-	1    1200 3850
-	1    0    0    -1  
+P 1550 3950
+F 0 "#PWR0102" H 1550 3800 50  0001 C CNN
+F 1 "+BATT" H 1565 4123 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1550 3950 50  0001 C CNN
+F 3 "" H 1550 3950 50  0001 C CNN
+	1    1550 3950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:-BATT #PWR0103
 U 1 1 60DF6A16
-P 1200 3550
-F 0 "#PWR0103" H 1200 3400 50  0001 C CNN
-F 1 "-BATT" H 1215 3723 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1200 3550 50  0001 C CNN
-F 3 "" H 1200 3550 50  0001 C CNN
-	1    1200 3550
-	1    0    0    -1  
+P 1550 3550
+F 0 "#PWR0103" H 1550 3400 50  0001 C CNN
+F 1 "-BATT" H 1565 3723 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1550 3550 50  0001 C CNN
+F 3 "" H 1550 3550 50  0001 C CNN
+	1    1550 3550
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:Battery_Cell BT1
 U 1 1 60DF8FE8
-P 2350 3750
-F 0 "BT1" H 2468 3846 50  0000 L CNN
-F 1 "Battery_Cell" H 2468 3755 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" V 2350 3810 50  0001 C CNN
-F 3 "~" V 2350 3810 50  0001 C CNN
-	1    2350 3750
+P 2350 3700
+F 0 "BT1" H 2468 3796 50  0000 L CNN
+F 1 "Battery_Cell" H 2468 3705 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" V 2350 3760 50  0001 C CNN
+F 3 "~" V 2350 3760 50  0001 C CNN
+	1    2350 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2350 3550 2000 3550
-Wire Wire Line
-	2000 3550 2000 3600
-Wire Wire Line
-	2350 3850 2000 3850
-Wire Wire Line
-	2000 3850 2000 3800
-Wire Wire Line
-	1600 3800 1600 3850
-Wire Wire Line
-	1600 3850 1200 3850
-Wire Wire Line
-	1200 3550 1600 3550
-Wire Wire Line
-	1600 3550 1600 3600
 Wire Wire Line
 	3250 7050 3350 7050
 Wire Wire Line
@@ -1712,4 +1674,38 @@ Wire Wire Line
 	7350 5900 7250 5900
 Wire Wire Line
 	6850 5900 6750 5900
+$Comp
+L Switch:SW_Push_DPDT SW_PWR1
+U 1 1 60DF3383
+P 1800 3750
+F 0 "SW_PWR1" H 1750 4250 50  0000 C CNN
+F 1 "SW_DPST" H 1750 4150 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_E-Switch_EG1271_DPDT" H 1800 3750 50  0001 C CNN
+F 3 "~" H 1800 3750 50  0001 C CNN
+	1    1800 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3450 2350 3450
+Wire Wire Line
+	2350 3450 2350 3500
+Wire Wire Line
+	2000 3850 2350 3850
+Wire Wire Line
+	2350 3850 2350 3800
+Wire Wire Line
+	1550 3950 1600 3950
+Wire Wire Line
+	1550 3550 1600 3550
+$Comp
+L Switch:SW_Push_Dual RESET1
+U 1 1 618A4AC7
+P 3550 6950
+F 0 "RESET1" H 3550 7235 50  0000 C CNN
+F 1 "SW_Push_Dual" H 3550 7144 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 3550 7150 50  0001 C CNN
+F 3 "~" H 3550 7150 50  0001 C CNN
+	1    3550 6950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
