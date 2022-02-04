@@ -4218,7 +4218,7 @@
     (property "Value" "C" (id 1) (at 35.306 139.0266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (id 2) (at 33.3502 140.97 0)
+    (property "Footprint" "custom-electronics:Dual-Hybrid-1206-C_Disc_D4.3mm_W1.9mm_P5.00mm" (id 2) (at 33.3502 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 32.385 137.16 0)
@@ -4278,7 +4278,7 @@
     (property "Value" "C" (id 1) (at 35.306 126.3266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (id 2) (at 33.3502 128.27 0)
+    (property "Footprint" "custom-electronics:Dual-Hybrid-1206-C_Disc_D4.3mm_W1.9mm_P5.00mm" (id 2) (at 33.3502 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 32.385 124.46 0)
@@ -4420,10 +4420,10 @@
       (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical")
     )
     (path "/a75a6b6e-fd3e-4beb-a876-b0db64cea578"
-      (reference "C1") (unit 1) (value "C") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C1") (unit 1) (value "C") (footprint "custom-electronics:Dual-Hybrid-1206-C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/d44f6aaa-f8db-4ae4-8055-30867637d971"
-      (reference "C2") (unit 1) (value "C") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C2") (unit 1) (value "C") (footprint "custom-electronics:Dual-Hybrid-1206-C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-00005dcbd469"
       (reference "D1") (unit 1) (value "1N4148W") (footprint "Keebio-Parts:Diode-dual")
