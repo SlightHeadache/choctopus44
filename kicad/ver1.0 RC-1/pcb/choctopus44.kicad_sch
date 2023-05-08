@@ -6,8 +6,8 @@
 
   (title_block
     (title "Choctopus44")
-    (date "2021-07-05")
-    (rev "1.0 Prototype")
+    (date "2023-05-08")
+    (rev "2.0")
   )
 
   (lib_symbols
