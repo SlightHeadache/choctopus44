@@ -1,4 +1,4 @@
-20131343241367958
+20136395769788078
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85537,7 +85537,7 @@ custom-ec11-cutout
 
 
 0
-0
+2
 0
 custom-encoders
 EC11 THD&SMD
@@ -85674,6 +85674,27 @@ lonkerot-180mm
 0
 keyboard stuff
 lonkerot-default
+
+
+0
+0
+0
+keyboard stuff
+mustekala-2-17mm
+
+
+0
+0
+0
+keyboard stuff
+mustekala-17mm
+
+
+0
+0
+0
+keyboard stuff
+mustekala-50mm
 
 
 0
