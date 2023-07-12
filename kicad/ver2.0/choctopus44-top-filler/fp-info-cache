@@ -1,4 +1,4 @@
-20161661795420493
+20170092953381293
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85519,6 +85519,13 @@ custom-electronics
 6
 2
 custom-electronics
+1206_hybrid-bottomfoam-cutout
+
+
+0
+0
+0
+custom-electronics
 1206_hybrid-topfoam-cutout
 
 
@@ -85534,6 +85541,13 @@ C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor
 2
 custom-electronics
 choc-foam-cutout
+
+
+0
+0
+0
+custom-electronics
+choc-hybrid-bottomfoam-cutout
 
 
 0
@@ -85561,6 +85575,13 @@ custom-ec11-cutout
 2
 0
 custom-electronics
+ec11-bottomfoam-cutout
+
+
+0
+0
+0
+custom-electronics
 ec11-topfoam-cutout
 
 
@@ -85568,7 +85589,21 @@ ec11-topfoam-cutout
 0
 0
 custom-electronics
+hybrid-diode-bottomfoam-cutout
+
+
+0
+0
+0
+custom-electronics
 hybrid-diode-topfoam-cutout
+
+
+0
+0
+0
+custom-electronics
+jumper-bottomfoam-cutout
 
 
 0
