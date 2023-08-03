@@ -1,0 +1,1 @@
+# Encoder footprint and compatibility
