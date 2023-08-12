@@ -79,13 +79,63 @@ After soldering the switch make sure that none of the three powered pins are sho
 
 ## MCU socket / MCU
 
-## Encoder / center switch
+After soldering all the components on the bottom side of the PCB it's sensible to start soldering components of the top side of the PCB.
+In my opinion it's best to start this with the MCU socket or the MCU as that's the slimmest top side component.
+
+If you're soldering the MCU directly onto the PCB it might make sense to actually solder the battery leads into place before the MCU.
+That way it's easier get the battery leads tucked neatly under the microcontroller.
+
+Especially if you're not socketin the microcontroller it's probably the most convenient to flash the controller before soldering it into place.
+
+
+## Encoder
+
+If you're building the board with an encoder I recommend soldering it into place before putting in the switches.
+If you're using a switch in the center position instead solder that into place when installing switches.
+
+If you're using an SMD encoder or an encoder with an unusually large body it might be necessary to file the edges of the encoder cut out in the switch plate.
+If doing so, do not breathe in any FR4 particles. Please refer to encoder documentation (TBA) for further details.
+
 
 ## Battery (optional)
 
-## Switches (if not using sockets)
+If you're using a battery with your build it's possible to solder it to the PCB's battery pins instead of the MCU's own battery pins. This can make the build look a lot cleaner.
+
+Depending on how long your battery leads are you might need to shorten them for a cleaner fit. Optimally you should be able to fit the loose battery leads under the microcontroller.
+
+***Notes!***
+  1. Be mindful of the battery polarity! Incorrect polarity might damage your device
+  2. I recommend having the power switch in the "off" position (top position) when soldering in the battery. That prevents the circuit of being properly powered while soldering.
+  3. Try to not short the battery pins. The battery pins are a bit closer than might be convenient.
+     I managed to get a small spark when soldering in the battery during the documentation build,
+     which thankfully didn't break anything, but is nonetheless something that one should pay attention to.
+
+
+## Switches
+
+If you're using a plate foam, install it as a part of this phase.
+
+### Hotswap
+
+Install the switches into the plate/PCB stack one by one. Be mindful of not using too much force so you don't damage the switches or worse, the switch sockets.
+
+### Solder
+
+Install the switches into the switch plate, and solder them into place.
+
 
 ## Physical assembly
+
+Install 6 5mm stand offs on the top side of the bottom plate using 3mm screws. Install 3 other 5mm stand offs for the MCU cover positions using 10mm screws. Install the bottom foam.
+
+Install the PCB/plate assembly on top of the bottom plate using 6 3mm screws in the main positions. Install 10mm stand offs on the MCU cover screw bits pointing through the switch plate.
+
+Install the MCU cover using 3mm screws.
+
+Install bump ons on the bottom of the keyboard.
+
+
+## Old guides
 
 SMD build guide by me: https://imgur.com/a/GYgZz99
 
