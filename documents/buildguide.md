@@ -32,7 +32,8 @@ bridge **R3** resistor footprint for jumper **JP1**, and **R2** for jumper **JP2
 ### Capacitors (optional)
 
 Especially if using cheap and noisy knock-off encoders the encoder output can occassionally be messy, leading to missed or double actuations when rotating it.
-If that's a concern I recommend soldering on the capacitors **C1** and **C2** to the encoder filtering circuit.
+If that's a concern I recommend soldering on the capacitors **C1** and **C2** to the encoder filtering circuit. Even if it's not a concern it's easy enough to
+solder them along with the jumpers, they do not seems to have any downsides.
 
 The capacitors are soldered in the same way as the diodes. The capacitors used here don't have a polarity, so you don't have to worry about the orientation that they're installed.
 
@@ -113,7 +114,7 @@ Depending on how long your battery leads are you might need to shorten them for 
 
 ## Switches
 
-If you're using a plate foam, install it as a part of this phase.
+If you're using a plate foam, install it as a part of this phase. If you're using a battery it might be necessary to trim the foam just a bit near the battery pads depending on your configuration.
 
 ### Hotswap
 
