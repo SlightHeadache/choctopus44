@@ -24,7 +24,7 @@ After soldering the diodes, cut the diode legs. It's recommended to cut the legs
 
 If you plan on using an encoder in your build it's recommended that you bridge the encoder filter jumpers **JP1** and **JP2** instead of using the full
 encoder filter circuit. In testing I noticed that ZMK/Nice!Nano doesn't seem to like the resistors that the full filter circuit would utilize.
-Please refer to encoder documentation (TBA) for further details.
+Please refer to **[encoder documentation](encoder.md)** for further details.
 
 
 ### Jumpers
@@ -50,7 +50,7 @@ The capacitors are soldered in the same way as the diodes. The capacitors used h
 ### Resistors (**not recommended!**)
 
 It is possible to forgo bridging the jumpers and solder on the resistors of the encoder filter circuit as well.
-This is not recommended and may cause the encoder to stop giving reliable output. See encoder documentation for further details (TBA).
+This is not recommended and may cause the encoder to stop giving reliable output. See **[encoder documentation](encoder.md)** for further details.
 
 
 ## Hotswap sockets
@@ -117,9 +117,10 @@ If you're using a switch in the center position instead solder that into place w
 ![encoder](../images/build_guide_images/encoder.jpg)
 
 If you're using an SMD encoder or an encoder with an unusually large body it might be necessary to file the edges of the encoder cut out in the switch plate.
-Please take proper safety cautions when doing so, FR4 dust is not good for your lungs. Please refer to encoder documentation (TBA) for further details.
+Please take proper safety cautions when doing so, FR4 dust is not good for your lungs. Additionally, with SMD encoders the curled side support legs have to be rolled flat.
+Please refer to **[encoder documentation](encoder.md)** for further details.
 
-*Compatibility graph TBA*
+![encoder compatibility](../images/build_guide_images/encoder-compatibility.jpg)
 
 
 ## Battery (optional)
@@ -189,9 +190,3 @@ Install bump ons on the bottom of the keyboard.
 
 ![bump ons](../images/build_guide_images/bump-ons.jpg)
 
-
-## Old guides
-
-SMD build guide by me: https://imgur.com/a/GYgZz99
-
-THD build guide by @ItsFiremanSam: https://imgur.com/a/jYFxEOO

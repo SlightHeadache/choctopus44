@@ -3,11 +3,20 @@
 ## Compatibility
 
 The center encoder footprint in the Choctopus is compatible with EC11 style encoders (both SMD and THD), MX type switches, and Choc switches.
-However, certain encoder versions might have issues with the encoder cut out in the switch plate. For example, SMD encoders and certain THD encoders
+However, certain encoder versions might have issues with the encoder cut out in the switch plate. For example, many SMD encoders and certain THD encoders
 with large bodies may not fit the plate cut out properly requiring you to file the plate cut out a bit.
-Should you do so, please take certain safety percautions, as breathing in FR4 dust is not recommended.
+SMD encoders also require you to flatten out the side support legs so that they do not conflict with the switch plate.
+Should you do so, please take proper safety percautions, as breathing in FR4 dust is not recommended.
 
-*Diagram about large body encoders (TBA)*
+The plan is to slightly adjust the encoder cut out size in version 2.0.1 to properly accomodate large body encoders. However, even after that SMD encoder
+side support legs will still require bending.
+
+![encoder compatibility](../images/build_guide_images/encoder-compatibility.jpg)
+
+
+Largest compatible encoder knob radius is 15mm, though personally I'd recommend going a good bit smaller than that for greater comfort.
+However, this is very much down to encoder choise and preference, heavy encoders might be much easier to use with bigger knobs, but lighter ones might be
+inconveniently easy to actuate with a large knob.
 
 
 ## Filtering circuit
