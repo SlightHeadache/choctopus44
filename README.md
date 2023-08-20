@@ -1,6 +1,6 @@
-# CHOCTOPUS44v2
+# Choctopus44
 
-The CHOCTOPUS44v2 is low profile, Choc spaced, optionally hotswappaple 44-key column staggered keyboard with a rotary encoder.
+Choctopus44 is low profile, Choc spaced, optionally hotswappaple 44-key column staggered keyboard with a rotary encoder.
 
 ![choctopus44](./images/choctopus44v2.jpg)
 
