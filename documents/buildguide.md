@@ -138,6 +138,8 @@ It can be helpful to add a small piece of double sided tape between it and the M
   3. Try to not short the battery pins. The battery pins are a bit closer than might be convenient.
      I managed to get a small spark when soldering in the battery during the documentation build,
      which thankfully didn't break anything, but is nonetheless something that one should pay attention to.
+  4. The vias in the battery traces are bigger than other vias on the board. This can cause the solder mask to seep into it during fabrication leaving the via exposed.
+     Should you encounter a via like that I recommend covering the via with something non-conductive, e.g. Kapton tape, as is done in the following image.
 
 ![battery](../images/build_guide_images/battery-cables.jpg)
 

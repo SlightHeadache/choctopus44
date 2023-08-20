@@ -7,8 +7,14 @@ The CHOCTOPUS44v2 is low profile, Choc spaced, optionally hotswappaple 44-key co
 
 ## Known issues with v2
 
-  * Switch plate does not accommodate all encoders properly. Certain non-Alps THD encoders, and SMD encoders may require filing the plate's encoder cut out to be a little bigger. See detailed encoder documentation (TBA).
+While all the main issues of the original Choctopus44 prototypes were addressed during the development of v2, some new minor arose during it's development.
+
+  * Switch plate does not accommodate all encoders properly. Certain non-Alps THD encoders, and SMD encoders may require filing the plate's encoder cut out to be a little bigger.
+    See **[encoder documentation](documents/encoder.md)**.
   * Flaky Bluetooth behaviour in certain edge cases while using Nice!Nano, seems like certain devices don't like Nice!Nano's/ZMK's Bluetooth handling
+  * During fabrication with tented vias the battery circuit vias can easily remain exposed, at least with JLCPCB. By my understanding this is caused by the solder mask liquid seeping
+    into the via's hole. This doesn't seem to affect other vias as only the battery vias are slightly larger than usual. This should be avoidable by using plugged vias instead, but as
+    that increases the cost of manufacturing I'm going to create a hotfix version in the future that shrinks those vias to the standard size to alleviate the issue.
 
 
 ## Parts list
@@ -22,7 +28,7 @@ The CHOCTOPUS44v2 is low profile, Choc spaced, optionally hotswappaple 44-key co
 | Kailh Choc sockets                            | 44      | x        |       |
 | Tactile switch TL3342 or compatible           | 1       |          | Stem height of 1.54mm used in tested builds |
 | Slide switch PCM12 or compatible              | 1       | x        | Only useful if a wireless microcontroller is used in conjunction with a battery |
-| EC11 encoder or compatible                    | 1       | x        | See detailed encoder documentation (TBA); Can also be replaced with a Choc or an MX switch |
+| EC11 encoder or compatible                    | 1       | x        | See detailed **[encoder documentation](documents/encoder.md)**; Can also be replaced with a Choc or an MX switch |
 | ProMicro/Nice!Nano or compatible              | 1       |          |       |
 | MCU socket (or header rows)                   | 1 (2)   | x        |       |
 | Kailh Choc key switch                         | 44 (45) |          |       |
