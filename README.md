@@ -2,12 +2,14 @@
 
 The CHOCTOPUS44v2 is low profile, Choc spaced, optionally hotswappaple 44-key column staggered keyboard with a rotary encoder.
 
-![choctopus44](./images/choctopus44_grid.png)
+![choctopus44](./images/choctopus44v2.jpg)
+
 
 ## Known issues with v2
 
   * Switch plate does not accommodate all encoders properly. Certain non-Alps THD encoders, and SMD encoders may require filing the plate's encoder cut out to be a little bigger. See detailed encoder documentation (TBA).
   * Flaky Bluetooth behaviour in certain edge cases while using Nice!Nano, seems like certain devices don't like Nice!Nano's/ZMK's Bluetooth handling
+
 
 ## Parts list
 
@@ -58,6 +60,8 @@ With the listed screws and stand offs, a 5mm thick battery can fit between the M
 
 ## Firmware
 
+***(Section outdated, updated version TBA)***
+
  * QMK: https://github.com/SlightHeadache/qmk_firmware
    * Navigate to your QMK folder and run the following `bash` command to fetch and switch to the WIP branch. If you are using git via PowerShell or CMD, remember to switch the `&&`s to semicolons. 
      Remember to switch to your preferred local branch if you wish to meddle with other keyboards.
@@ -69,6 +73,7 @@ With the listed screws and stand offs, a 5mm thick battery can fit between the M
  * ZMK (semantically incorrect WIP): https://github.com/SlightHeadache/zmk
    * For an easy online build using GitHub actions, fork https://github.com/SlightHeadache/zmk-config and enable Actions from *Settings -> Actions -> Allow all actions*. Then clone your fork.
      The firmware should now build automagically when you're done editing your keymap
+
 
 ## Build guide
 
