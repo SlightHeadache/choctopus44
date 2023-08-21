@@ -1,4 +1,4 @@
-20153237476646575
+20170086595398394
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85519,12 +85519,40 @@ custom-electronics
 6
 2
 custom-electronics
+1206_hybrid-bottomfoam-cutout
+
+
+0
+0
+0
+custom-electronics
+1206_hybrid-topfoam-cutout
+
+
+0
+0
+0
+custom-electronics
 Dual-Hybrid-1206-C_Disc_D4.3mm_W1.9mm_P5.00mm
 C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
 C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor
 0
 2
 2
+custom-electronics
+choc-foam-cutout
+
+
+0
+0
+0
+custom-electronics
+choc-hybrid-bottomfoam-cutout
+
+
+0
+0
+0
 custom-electronics
 choc-plate-cutout
 
@@ -85533,11 +85561,53 @@ choc-plate-cutout
 2
 0
 custom-electronics
+choc-topfoam-cutout
+
+
+0
+0
+0
+custom-electronics
 custom-ec11-cutout
 
 
 0
 2
+0
+custom-electronics
+ec11-bottomfoam-cutout
+
+
+0
+0
+0
+custom-electronics
+ec11-topfoam-cutout
+
+
+0
+0
+0
+custom-electronics
+hybrid-diode-bottomfoam-cutout
+
+
+0
+0
+0
+custom-electronics
+hybrid-diode-topfoam-cutout
+
+
+0
+0
+0
+custom-electronics
+jumper-bottomfoam-cutout
+
+
+0
+0
 0
 custom-encoders
 EC11 THD&SMD

@@ -1,5 +1,7 @@
 # Choctopus44
 
+*Current version: 2.0*
+
 Choctopus44 is low profile, Choc spaced, optionally hotswappaple 44-key column staggered keyboard with a rotary encoder.
 It is loosely based on **[gtips's REVIUNG project](https://github.com/gtips/reviung)**, specifically REVIUNG41, but has deviated from it significantly during its development.
 
