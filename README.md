@@ -20,6 +20,11 @@ While all the main issues of the original Choctopus44 prototypes were addressed 
     that increases the cost of manufacturing I'm going to create a hotfix version in the future that shrinks those vias to the standard size to alleviate the issue.
 
 
+## TODO
+
+  * Add documentation for v2's plate and bottom foams
+
+
 ## Parts list
 
 ### Main components
