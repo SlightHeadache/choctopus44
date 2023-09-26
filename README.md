@@ -76,7 +76,8 @@ With the listed screws and stand offs, a 5mm thick battery can fit between the M
 
 ## Firmware
 
-***Please note!*** Should you utilize a pre-existing QMK/Vial/ZMK set up, you may need to do steps not defined here depending on the version and the state of your pre-existing set up!
+***Please note!*** Should you utilize a pre-existing QMK/Vial/ZMK set up, you may need to do additional steps not defined here before you can succesfully build the firmware.
+Whether or not that's required is highly dependant on the version and the state of your pre-existing set up!
 
 *Pre-built binaries TBA*
 
