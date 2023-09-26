@@ -8,7 +8,7 @@ with large bodies may not fit the plate cut out properly requiring you to file t
 SMD encoders also require you to flatten out the side support legs so that they do not conflict with the switch plate.
 Should you do so, please take proper safety percautions, as breathing in FR4 dust is not recommended.
 
-The plan is to slightly adjust the encoder cut out size in version 2.0.1 to properly accomodate large body encoders. However, even after that SMD encoder
+The plan is to slightly adjust the encoder cut out size in version 2.1 to properly accomodate large body encoders. However, even after that SMD encoder
 side support legs will still require bending.
 
 ![encoder compatibility](../images/build_guide_images/encoder-compatibility.jpg)
