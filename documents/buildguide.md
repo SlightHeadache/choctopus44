@@ -4,6 +4,16 @@
 
 This guide documents the building process of Choctopus44v2 with THD diodes and capacitors, hotswap sockets, and an encoder.
 
+## PCB inspection
+
+Before starting the assembly process I recommend quickly inspecting the PCB for any defects.
+The vias in the battery and Vcc traces are bigger than other vias on the board.
+This can cause the solder mask to seep into it during fabrication leaving the via exposed and conductive on the surface,
+especially if using JLCPCB's tented option for via covering. This is something to be addressed in the next version of the board.
+
+Should you encounter a via like that I recommend covering the via with something non-conductive,
+e.g. Kapton tape, as is done in the image in the *Battery* section.
+
 ## Diodes
 
 Regardless of the type of diodes it's recommended that diodes are mounted on the bottom side of the PCB. In fact, if you're building be
@@ -138,8 +148,6 @@ It can be helpful to add a small piece of double sided tape between it and the M
   3. Try to not short the battery pins. The battery pins are a bit closer than might be convenient.
      I managed to get a small spark when soldering in the battery during the documentation build,
      which thankfully didn't break anything, but is nonetheless something that one should pay attention to.
-  4. The vias in the battery traces are bigger than other vias on the board. This can cause the solder mask to seep into it during fabrication leaving the via exposed.
-     Should you encounter a via like that I recommend covering the via with something non-conductive, e.g. Kapton tape, as is done in the following image.
 
 ![battery](../images/build_guide_images/battery-cables.jpg)
 
